@@ -1,0 +1,9 @@
+# Build outputs (shipped via GitHub Releases, not committed)
+StayAwake.exe
+*.zip
+dist/
+
+# Editor / OS noise
+*.pdb
+Thumbs.db
+.vs/
