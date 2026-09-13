@@ -1,0 +1,44 @@
+{
+  "listVersion": 1789283248,
+  "builtAt": "2026-09-13T07:07:28Z",
+  "domainCount": 345655,
+  "provenance": {
+    "curated-ph": 89,
+    "stevenblack-gambling": 6644,
+    "blocklistproject-gambling": 342623
+  },
+  "artifacts": {
+    "adguardhome.txt": {
+      "bytes": 6713028,
+      "sha256": "601dbfc040baa71d85b95f978c96d154c4c2b438091639be33aac77c7775b214"
+    },
+    "domains.txt": {
+      "bytes": 5676063,
+      "sha256": "eb8dc70fbe1138d3711434f93d13146ca83c86fb51f12f67bb7c057fc2fc275b"
+    },
+    "hosts.txt": {
+      "bytes": 8441303,
+      "sha256": "94b55814b66bbff27956d0829a4023eaa6e1bb06c91be1a18d9586903c993a66"
+    },
+    "mikrotik.rsc": {
+      "bytes": 26069686,
+      "sha256": "dd7d41f8dce9c9c6de37ca88abd4905a099484f34fbbc4998827fd7140837354"
+    },
+    "pihole-adlist.txt": {
+      "bytes": 5676063,
+      "sha256": "eb8dc70fbe1138d3711434f93d13146ca83c86fb51f12f67bb7c057fc2fc275b"
+    },
+    "rpz.zone": {
+      "bytes": 17573806,
+      "sha256": "727c87db5e45cd5a2f08aba6982e166fe66b08a504633d6b652cb2a7eddc41da"
+    },
+    "rules.json": {
+      "bytes": 1954,
+      "sha256": "fbc7f9f14d614234c6f6ded7704c98024d48e280ec51331fccba1fb6ab66ff2b"
+    },
+    "tigil-blocklist.bin": {
+      "bytes": 2765264,
+      "sha256": "6318b79ec3a57a0ca237e6f18a513142d0efda7d47c1b4ad9fd40fe6487e86ea"
+    }
+  }
+}

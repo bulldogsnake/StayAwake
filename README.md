@@ -1,5 +1,14 @@
 # StayAwake
 
+> **This repository now hosts two unrelated projects.**
+>
+> - **StayAwake** (below) — the original Windows system-tray app that keeps your PC from going idle.
+> - **[Tigil](tigil/)** — a gambling blocker for Android, built for the Philippines. Blocks ~346,000 gambling domains across the whole phone, catches unlisted mirror domains by shape, and exports the same list to Pi-hole, AdGuard Home, MikroTik and BIND RPZ for network-wide blocking. See [`tigil/README.md`](tigil/README.md).
+
+---
+
+## StayAwake (Windows tray app)
+
 A tiny (~11 KB) Windows system-tray app that keeps your PC from going idle, so messaging apps like **Slack, Microsoft Teams, and Discord** keep showing you as **Active** instead of *Away* or *Offline*.
 
 No installer. No dependencies. No background services. Just one small `.exe`.

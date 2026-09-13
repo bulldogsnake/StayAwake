@@ -1,0 +1,8 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+# Copied from ../blocklist/dist by the syncBlocklist Gradle task.
+app/src/main/assets/

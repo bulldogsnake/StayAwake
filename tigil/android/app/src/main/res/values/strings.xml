@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tigil</string>
+
+    <string name="channel_protection">Protection status</string>
+    <string name="channel_protection_description">A silent, ongoing notification
+        shown while gambling sites are being blocked. Android requires it.</string>
+
+    <string name="notification_title">Tigil is protecting this phone</string>
+    <string name="notification_text">Gambling sites and apps are blocked.</string>
+    <string name="notification_text_locked">Blocking is locked on until your
+        commitment period ends.</string>
+
+    <string name="status_on">Protected</string>
+    <string name="status_off">Not protected</string>
+    <string name="status_on_detail">%,d known gambling domains are blocked on this
+        phone — in every app and every browser, even when Tigil is closed.</string>
+    <string name="status_off_detail">Tap the shield to block gambling sites across
+        this whole phone. Setup takes one tap and one Android permission.</string>
+
+    <string name="shield_tap_to_start">TAP TO START</string>
+    <string name="shield_tap_to_stop">TAP TO STOP</string>
+    <string name="shield_locked">LOCKED ON</string>
+
+    <string name="tile_on">Gambling blocking is on</string>
+    <string name="tile_off">Gambling blocking is off</string>
+
+    <string name="stats_title">This phone</string>
+    <string name="stats_blocked">Attempts blocked</string>
+    <string name="stats_list_size">Domains on the list</string>
+    <string name="stats_since">Protected since</string>
+    <string name="stats_last">Last blocked</string>
+
+    <string name="commit_title">Commitment lock</string>
+    <string name="commit_body">Lock protection on for a set period. While the
+        lock is active, Tigil cannot be switched off — not from this screen, not
+        from the notification, not from Quick Settings. The urge to disable a
+        blocker passes; the lock is there to outlast it.</string>
+    <string name="commit_days">%d days</string>
+    <string name="commit_active">Locked on until %s</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_strict">Block encrypted DNS bypass</string>
+    <string name="settings_strict_detail">Stops apps and browsers from using
+        their own secure DNS to get around the block. Leave this on unless
+        something stops working.</string>
+    <string name="settings_add_site">Block another site</string>
+    <string name="settings_add">Add</string>
+
+    <string name="warn_private_dns_title">Private DNS is bypassing Tigil</string>
+    <string name="warn_private_dns_body">Your phone is set to send every lookup
+        to a Private DNS server, which goes around Tigil completely. Nothing is
+        being blocked right now. Open Network settings and set Private DNS to
+        Off or Automatic.</string>
+    <string name="warn_private_dns_action">Open network settings</string>
+
+    <string name="honesty_title">What Tigil cannot do</string>
+    <string name="honesty_body">Tigil blocks gambling sites by name, which stops
+        them loading in any app or browser on this phone. It cannot stop a site
+        reached by raw IP address, another VPN installed on top of it, a
+        different phone, or a computer on another network. Anyone who wants to
+        get around it can. This is a wall against impulse, not against
+        determination — and that is usually the wall that matters.</string>
+    <string name="honesty_help">If gambling is costing you money, sleep, or
+        people you love, please talk to someone. In the Philippines: NCMH Crisis
+        Hotline 1553 (toll-free, nationwide) or 0966-351-4518.</string>
+</resources>

@@ -1,0 +1,141 @@
+# Tigil — curated Philippines gambling seed list
+#
+# PURPOSE
+#   Upstream global feeds (StevenBlack, BlocklistProject) cover ~349k casino
+#   domains but under-cover the Philippine market. This file adds the operators
+#   that are actually promoted here — by influencers, by e-wallet banners,
+#   and on TV/PBA/PVL sponsorships.
+#
+# SCOPE NOTE (read this before editing)
+#   This list deliberately includes BOTH:
+#     (a) PAGCOR-licensed / PIGO operators — legal, but the user of this app has
+#         chosen to block them. Legality is not the criterion; the user's own
+#         commitment is.
+#     (b) unlicensed / offshore operators and e-sabong, which are illegal in PH.
+#   An operator appearing here is NOT an accusation of wrongdoing. Domains in
+#   the "licensed" section are lawful businesses. This is a self-control tool,
+#   the way an alcohol-blocking app lists licensed liquor retailers.
+#
+# VERIFICATION STATUS
+#   Entries marked [v] were seen in search results / public reporting during
+#   research. Entries marked [?] are pattern-derived (common mirror shapes) and
+#   should be verified against the authoritative sources in ../SOURCES.md
+#   before a production release. The keyword engine (seed/keywords.txt) is what
+#   actually carries the load against mirror churn — this file is the anchor.
+
+# ---------------------------------------------------------------------------
+# PAGCOR-licensed / PIGO operators (legal, blocked by user choice)
+# ---------------------------------------------------------------------------
+# DigiPlus Interactive (PSE-listed) brands
+bingoplus.ph                    # [v] largest registered userbase in PH
+bingoplus.com
+bingoplus.net
+arenaplus.ph                    # [v] PBA / PVL official betting partner
+arenaplus.net
+gamezone.ph                     # [?] DigiPlus casual-games brand
+peryagame.ph                    # [?] DigiPlus perya brand
+peryagame.com
+digiplus.com.ph
+
+# Other frequently-promoted licensed operators
+747.live                        # [v] largest mobile game library among PIGO
+747live.net
+747live.asia
+okbet.com                       # [v]
+okbet.ph
+okbet.net
+bet88.ph                        # [v] Trojans Well Entertainment, PAGCOR 22-013
+bet88.com.ph
+lucky-cola.com                  # [v]
+luckycola.com
+luckycola.ph
+jiliko.com                      # [v]
+jiliko.net
+jiliko.ph
+superace88.com                  # [v] ~1500 JILI/Relax/R88 titles
+superace88.net
+betso88.com                     # [v]
+betso88.ph
+panaloko.com                    # [v]
+panaloko.ph
+22win.com                       # [v]
+22win.ph
+phlwin.com                      # [?] heavily advertised in PH
+phlwin.ph
+nustabet.com                    # [?]
+mnl168.com                      # [?]
+mnl168.net
+ph365.com                       # [?]
+90jili.com                      # [?]
+jili777.com                     # [?]
+fachaigames.com                 # [?] game studio, deep-linked by operators
+
+# Land-based casinos with online arms
+solaireonline.com               # [?]
+okadamanila.com                 # [?]
+cityofdreamsmanila.com          # [?]
+resortsworldmanila.com          # [?]
+
+# ---------------------------------------------------------------------------
+# Game aggregators / studios whose lobbies are the actual gambling surface
+# ---------------------------------------------------------------------------
+jiligames.com                   # [v] "JILI" is the single most-promoted brand in PH
+jili.com
+jiligaming.com
+pgsoft.com                      # [?]
+evolution.com                   # [?] live dealer supplier
+pragmaticplay.com               # [?]
+
+# ---------------------------------------------------------------------------
+# E-sabong (online cockfighting) — BANNED in PH since 2022, still operating
+# CICC found 146 sites linked to illegal online sabong.
+# ---------------------------------------------------------------------------
+sw418.com                       # [v] long-running e-sabong portal family
+sw418live.com
+wpc2027.live                    # [v] "World Pitmasters Cup" mirror family
+wpc2029.live
+wpc2026.live
+wpc2025.live
+wpc16.com
+wpc15.com
+wpit18.com                      # [v]
+pitmasterlive.com               # [?]
+pitmasterlive8.com
+sabong888.com                   # [?]
+sabonginternational.com         # [?]
+esabong.com                     # [?]
+talpakan.live                   # [?]
+onlinesabong.com                # [?]
+
+# ---------------------------------------------------------------------------
+# Offshore / unlicensed operators marketed aggressively to PH users
+# CICC has identified 1000+ unlicensed gambling websites.
+# ---------------------------------------------------------------------------
+1xbet.com                       # [v]
+1xbet.ph
+melbet.com                      # [v]
+22bet.com                       # [v]
+betwinner.com                   # [v]
+linebet.com                     # [v]
+stake.com                       # [v] crypto casino
+bc.game                         # [v] crypto casino
+sportsbet.io                    # [v]
+pnxbet.com                      # [?]
+casinoplus.ph                   # [?]
+bet365.com                      # [v] not PH-licensed
+dafabet.com                     # [v]
+188bet.com                      # [?]
+m88.com                         # [?]
+w88.com                         # [?]
+fun88.com                       # [?]
+12bet.com                       # [?]
+
+# ---------------------------------------------------------------------------
+# Affiliate / review / "free bonus code" sites — the funnel into the above.
+# These are how users are recruited; blocking operators alone leaves the funnel.
+# ---------------------------------------------------------------------------
+casinophilippines10.com         # [v]
+top-onlinecasino.ph             # [v]
+onlinecasino.net.ph             # [v]
+online-casino.ph                # [v]
+trustedpagcor.ph                # [v]
