@@ -1,10 +1,7 @@
 # Build outputs (shipped via GitHub Releases, not committed)
 StayAwake.exe
 *.zip
-/dist/
-
-__pycache__/
-*.pyc
+dist/
 
 # Editor / OS noise
 *.pdb
