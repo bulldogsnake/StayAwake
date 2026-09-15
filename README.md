@@ -54,6 +54,14 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /optimize
 
 This makes your desktop **show** as available — it doesn't send messages or do work for you. If someone is watching actual message activity, they'll still see when you're not really there. The Slack **mobile** app reports presence separately and isn't affected.
 
+## StayAwake Auto (Android Auto app)
+
+The [`android/`](android/) folder holds a separate project: a side-loaded Android Auto
+app for a Galaxy S25 Ultra that puts YouTube, Netflix and Prime Video on the car screen
+and only allows playback while the car is stopped. See [android/README.md](android/README.md)
+for how it works, how to build it (GitHub Actions produces the APK) and how to enable it in
+Android Auto.
+
 ## License
 
 [MIT](LICENSE)

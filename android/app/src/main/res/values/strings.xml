@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StayAwake Auto</string>
+    <string name="notification_channel">Vehicle speed monitor</string>
+    <string name="notification_title">StayAwake Auto is connected</string>
+    <string name="notification_text">Checking vehicle speed so video only plays while parked</string>
+</resources>

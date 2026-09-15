@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101418"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/SetupTitle"
+            android:text="StayAwake Auto" />
+
+        <TextView
+            style="@style/SetupBody"
+            android:text="YouTube, Netflix and Prime Video on your Android Auto screen, only while the car is stopped. Complete the steps below once on the phone, then open StayAwake Auto from the app launcher in the car." />
+
+        <TextView
+            style="@style/SetupHeader"
+            android:text="1. Permissions" />
+
+        <TextView
+            style="@style/SetupBody"
+            android:text="Speed is what decides whether the car is parked. Car speed comes from the head unit through Android Auto; location is the GPS fallback. Grant both." />
+
+        <TextView
+            android:id="@+id/tv_permission_status"
+            style="@style/SetupBody"
+            android:fontFamily="monospace"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_grant_location"
+            style="@style/SetupButton"
+            android:text="Grant location" />
+
+        <Button
+            android:id="@+id/btn_grant_car_speed"
+            style="@style/SetupButton"
+            android:text="Grant car speed" />
+
+        <Button
+            android:id="@+id/btn_grant_notifications"
+            style="@style/SetupButton"
+            android:text="Allow notifications (speed monitor)" />
+
+        <TextView
+            style="@style/SetupHeader"
+            android:text="2. Sign in on the phone" />
+
+        <TextView
+            style="@style/SetupBody"
+            android:text="Typing on the car screen is painful, so sign in here. The car screen shares these logins." />
+
+        <Button
+            android:id="@+id/btn_login_youtube"
+            style="@style/SetupButton"
+            android:text="Open YouTube" />
+
+        <Button
+            android:id="@+id/btn_login_netflix"
+            style="@style/SetupButton"
+            android:text="Open Netflix" />
+
+        <Button
+            android:id="@+id/btn_login_prime"
+            style="@style/SetupButton"
+            android:text="Open Prime Video" />
+
+        <TextView
+            style="@style/SetupHeader"
+            android:text="3. Android Auto setup" />
+
+        <TextView
+            style="@style/SetupBody"
+            android:text="Android Auto hides apps that were not installed from the Play Store until you allow them:\n\n• Open the Android Auto settings.\n• Scroll to the bottom and tap the Version line about 10 times until Developer settings unlock.\n• Open the three-dot menu → Developer settings → turn on “Unknown sources”.\n• Back in settings, open “Customize launcher” and make sure StayAwake Auto is ticked.\n\nIf taps on the page do nothing, press the pan (hand) button on the car screen once." />
+
+        <Button
+            android:id="@+id/btn_open_android_auto"
+            style="@style/SetupButton"
+            android:text="Open Android Auto settings" />
+
+        <TextView
+            style="@style/SetupHeader"
+            android:text="4. Options" />
+
+        <Switch
+            android:id="@+id/sw_desktop_youtube"
+            style="@style/SetupSwitch"
+            android:text="YouTube: desktop site" />
+
+        <Switch
+            android:id="@+id/sw_desktop_netflix"
+            style="@style/SetupSwitch"
+            android:text="Netflix: desktop site (required for playback)" />
+
+        <Switch
+            android:id="@+id/sw_desktop_prime"
+            style="@style/SetupSwitch"
+            android:text="Prime Video: desktop site (required for playback)" />
+
+        <Switch
+            android:id="@+id/sw_keep_screen_on"
+            style="@style/SetupSwitch"
+            android:text="Keep the phone screen dimly on while the car screen is active" />
+
+        <Switch
+            android:id="@+id/sw_manual_park"
+            style="@style/SetupSwitch"
+            android:text="Allow tapping “I am parked” when no speed data exists (e.g. underground garage)" />
+
+        <TextView
+            style="@style/SetupBody"
+            android:text="Speeds above this value pause playback (km/h):" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_speed_threshold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn_save_threshold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_clear_data"
+            style="@style/SetupButton"
+            android:layout_marginTop="24dp"
+            android:text="Clear browser data and logins" />
+    </LinearLayout>
+</ScrollView>

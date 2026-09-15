@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StayAwake Auto</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0b0f14; color: #fff; font-family: sans-serif; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  h1 { font-weight: 400; font-size: 22px; letter-spacing: 1px; color: #9fb3c8; margin: 0 0 24px; }
+  .tiles { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; padding: 0 24px; }
+  a.tile { display: flex; align-items: center; justify-content: center; width: 220px; height: 130px;
+           border-radius: 18px; text-decoration: none; color: #fff; font-size: 30px; font-weight: 700;
+           box-shadow: 0 6px 24px rgba(0,0,0,.6); }
+  a.tile:active { transform: scale(.97); }
+  .yt { background: #ff0000; }
+  .nf { background: #e50914; }
+  .pv { background: #00a8e1; }
+  p.note { margin-top: 28px; color: #6f8296; font-size: 14px; text-align: center; padding: 0 24px; }
+</style>
+</head>
+<body>
+  <h1>PARKED-ONLY VIDEO</h1>
+  <div class="tiles">
+    <a class="tile yt" href="stayawake://open/youtube">YouTube</a>
+    <a class="tile nf" href="stayawake://open/netflix">Netflix</a>
+    <a class="tile pv" href="stayawake://open/prime">Prime Video</a>
+  </div>
+  <p class="note">Sign in to each service in the StayAwake Auto app on your phone first.<br>
+  Playback pauses automatically as soon as the car moves.</p>
+</body>
+</html>
